@@ -28,6 +28,5 @@ packages from sklearn were used.
 
 #### projectData Folder:
   Cancer.dat - raw data file from IPUMS database
-  ModCancerData.csv - modified data file, used for experiments
   DataFeatures.txt - File containing information on features of the IPUMS
     data set
