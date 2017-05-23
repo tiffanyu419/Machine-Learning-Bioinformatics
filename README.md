@@ -9,7 +9,8 @@ validated using logistic regression and externally validated through the researc
 in official medical journals. 
 
 To implement the C4.5, AdaBoost and RandomForest algorithms, 
-packages from sklearn were used
+packages from sklearn were used.
+
 C4.5: from sklearn.tree import DecisionTreeClassifier
 AdaBoost: from sklearn.ensemble import AdaBoostClassifier
 RandomForest: from sklearn.ensemble import RandomForestClassifier
