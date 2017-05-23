@@ -15,18 +15,18 @@ packages from sklearn were used.
 2. AdaBoost: from sklearn.ensemble import AdaBoostClassifier
 3. RandomForest: from sklearn.ensemble import RandomForestClassifier
 
-modifyData.py:
+#### modifyData.py:
   This python programs takes the raw data file (Cancer.dat), modifies the data as
   needed for experiments, and outputs two data files (ModCancerData.csv - the 
   complete data set used for experiments and debug.csv - a smaller data set used
   for debugging purposes)
 
-main.py:
+#### main.py:
   This python program includes the entire code to run experiments. To run 
   experiments, run "python main.py <datatextfile>".  For our experiments,
   ModCancerData.csv was used as the <datatextfile>.
 
-projectData Folder:
+#### projectData Folder:
   Cancer.dat - raw data file from IPUMS database
   ModCancerData.csv - modified data file, used for experiments
   debug.csv - subset of entire data set to be used for debugging purposes
