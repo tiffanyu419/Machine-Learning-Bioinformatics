@@ -11,9 +11,9 @@ in official medical journals.
 To implement the C4.5, AdaBoost and RandomForest algorithms, 
 packages from sklearn were used.
 
-C4.5: from sklearn.tree import DecisionTreeClassifier
-AdaBoost: from sklearn.ensemble import AdaBoostClassifier
-RandomForest: from sklearn.ensemble import RandomForestClassifier
+1. C4.5: from sklearn.tree import DecisionTreeClassifier
+2. AdaBoost: from sklearn.ensemble import AdaBoostClassifier
+3. RandomForest: from sklearn.ensemble import RandomForestClassifier
 
 modifyData.py:
   This python programs takes the raw data file (Cancer.dat), modifies the data as
