@@ -1,5 +1,4 @@
-# Bioinformatics - Comparing Performance of Machine Learning Algorithms through deterimining
-# Breast Cancer Risk Factors
+# Bioinformatics - Comparing Performance of Machine Learning Algorithms through deterimining Breast Cancer Risk Factors
 by Tiffany Yu and Maggie Eberts
 
 Through determining the risk factors of breast cancer using three different Machine Learning
