@@ -1,0 +1,1551 @@
+Description: Data for predicting breast cancer
+Samples selected:
+      IHIS 2010                                         regular
+File Type:                    rectangular
+Case Selection:               No
+  Variable               Columns        Len    2010   
+  REGION             1   1-2            2      X 
+  AGE                2   3-4            2      X 
+  SEX                2   5              1      X 
+  MARST              2   6-7            2      X 
+  FAMSIZE            2   8-9            2      X 
+  MOMED              2  10-11           2      X 
+  DADED              2  12-13           2      X 
+  RACEA              2  14-16           3      X 
+  LANGSPEAK          2  17              1      X 
+  NOWAF              2  18              1      X 
+  HOMELESSEV         2  19              1      X 
+  EDUC               2  20-21           2      X 
+  EMPSTAT            2  22-23           2      X 
+  POORYN             2  24              1      X 
+  HEALTH             2  25              1      X 
+  HEIGHT             2  26-27           2      X 
+  WEIGHT             2  28-30           3      X 
+  BMI                2  31-34           4      X 
+  HSTATYR            2  35              1      X 
+  WLDAYR2            2  36-37           2      X 
+  WORKVOLHCSET       2  38              1      X 
+  WORKVOLHCPAT       2  39              1      X 
+  HEALTHMENT         2  40              1      X 
+  HEALTHPHYS         2  41              1      X 
+  PHYSACTABLE        2  42              1      X 
+  QUALOFLIFE         2  43              1      X 
+  SOCHOWELL          2  44              1      X 
+  SOCSATISFY         2  45              1      X 
+  ANEMIAYR           2  46              1      X 
+  ARTHGLUPEV         2  47              1      X 
+  ARTHRITEV          2  48              1      X 
+  ASTHMAEV           2  49              1      X 
+  AUTISMEV           2  50              1      X 
+  CANCEREV           2  51              1      X 
+  CHEARTDIEV         2  52              1      X 
+  CPOXEV             2  53              1      X 
+  CYSTICFIEV         2  54              1      X 
+  DIABETICEV         2  55              1      X 
+  DIARRHEAYR         2  56              1      X 
+  DOWNSYNEV          2  57              1      X 
+  EARINFYR           2  58              1      X 
+  FHEADYR            2  59              1      X 
+  HEARTATTEV         2  60              1      X 
+  HEARTCONEV         2  61              1      X 
+  HEPATEV            2  62              1      X 
+  HYPERTENEV         2  63              1      X 
+  KIDNEYWKYR         2  64              1      X 
+  LEGPAIN3MO         2  65              1      X 
+  MIGRAIN3MO         2  66              1      X 
+  MUSCDYSTEV         2  67              1      X 
+  PREGNANTNOW        2  68              1      X 
+  RALLERGYR          2  69              1      X 
+  RETEV              2  70              1      X 
+  SALLERGYR          2  71              1      X 
+  SEIZUREYR          2  72              1      X 
+  SICKLCELEV         2  73              1      X 
+  STROKEV            2  74              1      X 
+  CNBRES             2  75              1      X 
+  HRSLEEP            2  76-77           2      X 
+  ALCSTAT1           2  78              1      X 
+  ALCDAYSWK          2  79-80           2      X 
+  SMOKFREQNOW        2  81              1      X 
+  SMOKHOMRES         2  82              1      X 
+  SMOKWKEXPYR        2  83              1      X 
+  MOD10FWK           2  84-85           2      X 
+  COFETEAMNO         2  86-88           3      X 
+  PIZZANO            2  89-91           3      X 
+  SPFNUM             2  92-93           2      X 
+  SUNBRNYR           2  94              1      X 
+  TRAVLDC95          2  95              1      X 
+  WEXVAPOR           2  96              1      X 
+  WEXCHEMSKIN        2  97              1      X 
+  LANY               2  98-99           2      X 
+  PAINFREQ           2 100              1      X 
+  TIREFREQ3MO        2 101              1      X 
+  WORHPSAYANX        2 102              1      X 
+  DEPHPSAYDEP        2 103              1      X 
+  AIDCHANCE          2 104              1      X 
+  BDBTCAN            2 105              1      X 
+  BFBTCAN            2 106              1      X 
+  BFHCAN             2 107              1      X 
+  BMBTCAN            2 108              1      X 
+  BMHCAN             2 109              1      X 
+  BSBTCAN            2 110              1      X 
+  FBBTCAN            2 111              1      X 
+  FSBTCAN            2 112              1      X 
+  GENTBCAN           2 113              1      X 
+  LUMPEV             2 114              1      X 
+  HYSTEV             2 115              1      X 
+  BCPILNOW           2 116              1      X 
+  BIRTHAG            2 117-118          2      X 
+  CHEB               2 119-120          2      X 
+  MENARCH            2 121-122          2      X 
+  MENSHAVE           2 123-124          2      X 
+  RALOXIFN           2 125              1      X 
+  TAMOXIFN           2 126              1      X 
+  VITMO              2 127              1      X 
+  VITMOCALC          2 128              1      X 
+  VITMOVITD          2 129              1      X 
+
+Variable Availability Key:
+All Years X - available in this sample
+All Years . - not available in this sample
+
+
+ REGION		Region of residence
+01		Northeast
+02		North Central/Midwest
+03		South
+04		West
+09		Unknown
+
+ AGE		Age
+00		0
+01		1
+02		2
+03		3
+04		4
+05		5
+06		6
+07		7
+08		8
+09		9
+10		10
+11		11
+12		12
+13		13
+14		14
+15		15
+16		16
+17		17
+18		18
+19		19
+20		20
+21		21
+22		22
+23		23
+24		24
+25		25
+26		26
+27		27
+28		28
+29		29
+30		30
+31		31
+32		32
+33		33
+34		34
+35		35
+36		36
+37		37
+38		38
+39		39
+40		40
+41		41
+42		42
+43		43
+44		44
+45		45
+46		46
+47		47
+48		48
+49		49
+50		50
+51		51
+52		52
+53		53
+54		54
+55		55
+56		56
+57		57
+58		58
+59		59
+60		60
+61		61
+62		62
+63		63
+64		64
+65		65
+66		66
+67		67
+68		68
+69		69
+70		70
+71		71
+72		72
+73		73
+74		74
+75		75
+76		76
+77		77
+78		78
+79		79
+80		80
+81		81
+82		82
+83		83
+84		84
+85		85 (1963-1968 and 1997 forward: 85+)
+86		86
+87		87
+88		88
+89		89
+90		90 (1996: 90+)
+91		91
+92		92
+93		93
+94		94
+95		95
+96		96
+97		97
+98		98
+99		99+
+
+ SEX		Sex
+1		Male
+2		Female
+
+ MARST		Current marital status
+00		NIU
+10		Married
+11		Married - Spouse present
+12		Married - Spouse not in household
+13		Married - Spouse in household unknown
+20		Widowed
+30		Divorced
+40		Separated
+50		Never married
+99		Unknown marital status
+
+ FAMSIZE		Number of persons in family
+00		Unrelated Individuals
+01		1 person
+02		2 people
+03		3 people
+04		4 people
+05		5 people
+06		6 people
+07		7 people
+08		8 people
+09		9 people
+10		10 people
+11		11 people
+12		12 people
+13		13 people
+14		14 people
+15		15 people
+16		16 people
+17		17 people
+18		18 people
+19		19 people
+20		20 people
+21		21 people
+22		22 people
+23		23 people
+24		24 people
+25		25 people
+26		26 people
+27		27 people
+28		28 people
+29		29 people
+30		30 people
+31		31 people
+32		32 people
+33		33 people
+34		34 people
+35		35 people
+36		36 people
+37		37 people
+38		38 people
+39		39 people
+40		40 people
+41		41 people
+42		42 people
+43		43 people
+44		44 people
+45		45 people
+46		46 people
+47		47 people
+48		48 people
+49		49 people
+50		50 people
+51		51 people
+52		52 people
+53		53 people
+54		54 people
+55		55 people
+56		56 people
+57		57 people
+58		58 people
+59		59 people
+60		60 people
+61		61 people
+62		62 people
+63		63 people
+64		64 people
+65		65 people
+66		66 people
+67		67 people
+68		68 people
+69		69 people
+70		70 people
+71		71 people
+72		72 people
+73		73 people
+74		74 people
+75		75 people
+76		76 people
+77		77 people
+78		78 people
+79		79 people
+80		80 people
+81		81 people
+82		82 people
+83		83 people
+84		84 people
+85		85 people
+86		86 people
+87		87 people
+88		88 people
+89		89 people
+90		90 people
+91		91 people
+92		92 people
+93		93 people
+94		94 people
+95		95 people
+96		96 people
+97		97 people
+98		98 people
+99		99 people
+
+ MOMED		Education of mother
+00		NIU
+01		Less/equal to 8th grade
+02		9-12th grade, no high school diploma
+03		High school graduate/GED recipient
+04		Some college, no degree
+05		AA degree, technical or vocational
+06		AA degree, academic program
+07		Bachelor's degree
+08		Master's, professional, or doctoral degree
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ DADED		Education of father
+00		NIU
+01		8th grade or less
+02		9th to 12th grade, no high school diploma
+03		High school grad or GED
+04		Some college, no degree
+05		AA degree, technical or vocational
+06		AA degree, academic program
+07		Bachelor's degree
+08		MA, professional, or PhD degree
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ RACEA		Main Racial Background (Pre-1997 Revised OMB Standards), self-reported or interviewer reported
+100		White
+200		Black/African-American
+300		Aleut, Alaskan Native, or American Indian
+310		Alaskan Native or American Indian
+320		Alaskan Native/Eskimo
+330		Aleut
+340		American Indian
+400		Asian or Pacific Islander
+410		Asian
+411		Chinese
+412		Filipino
+413		Korean
+414		Vietnamese
+415		Japanese
+416		Asian Indian
+420		Pacific Islander
+421		Hawaiian
+422		Samoan
+423		Guamanian
+430		Other Asian or Pacific Islander
+431		Other Asian or Pacific Islander (1992-1995)
+432		Other Asian or Pacific Islander (1996)
+433		Other Asian or Pacific Islander (1997-1998)
+434		Other Asian (1999 forward)
+500		Other Race
+510		Other Race (1969-1977)
+520		Other Race (1978)
+530		Other Race (1979-1991)
+540		Other Race (1992-1995)
+550		Other Race (1996)
+560		Other Race (1997-1998)
+570		Other Race (1999-2002)
+580		Primary Race not releasable
+600		Multiple Race, No Primary Race Selected
+900		Unknown
+970		Unknown-refused
+980		Unknown-not ascertained
+990		Unknown (1997forward: Don't know)
+
+ LANGSPEAK		Language generally speak
+0		NIU
+1		Only Spanish
+2		Mostly Spanish
+3		Spanish and English equally
+4		Mostly English
+5		Only English
+6		Other language
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ NOWAF		Currently in armed forces
+0		NIU
+1		Not Armed Forces
+2		Armed Forces
+7		Unknown--refused
+8		Unknown--not ascertained
+9		Unknown--don't know
+
+ HOMELESSEV		Ever spent more than 1 day in street/shelter/jail
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ EDUC		Educational attainment
+00		NIU
+01		Never attended/kindergarten only
+02		Grade 1
+03		Grade 2
+04		Grade 3
+05		Grade 4
+06		Grade 5
+07		Grade 6
+08		Grade 7
+09		Grade 8
+10		Grade 9
+11		Grade 10
+12		Grade 11
+13		12th grade, no diploma
+14		High school graduate
+15		GED or equivalent
+16		Some college, no degree
+17		AA degree: technical/vocational/occupational
+18		AA degree: academic program
+19		Bachelor's degree (BA, AB, BS, BBA)
+20		Master's degree (MA, MS, Meng, Med, MBA)
+21		Professional degree (MD, DDS, DVM, JD)
+22		Doctoral degree (PhD, EdD)
+97		Unknown--refused
+98		Unknown--not ascertained
+99		Unknown--don't know
+
+ EMPSTAT		Employment status in past 1 to 2 weeks
+00		NIU
+10		Working
+11		Working for pay at job/business
+12		Working, w/out pay, at job/business
+20		With job, but not at work
+21		With job, not at work: not laid-off, not looking
+22		With job, not at work: looking
+30		Unemployed
+31		Unemployed: On layoff
+32		Unemployed: On layoff and looking
+33		Unemployed: Unk if looking or laid off
+34		Unemployed: Looking or on layoff
+40		Not in labor force
+90		Unknown-all causes
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ POORYN		Above or below poverty threshold
+1		At or above poverty threshold
+2		Below poverty threshold
+9		Unk (1997+: incl. Undefined)
+
+ HEALTH		Health status
+1		Excellent
+2		Very Good
+3		Good
+4		Fair
+5		Poor
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HEIGHT		Height in inches without shoes
+00		NIU
+12		12
+13		13
+14		14
+15		15
+16		16
+17		17
+18		18
+19		19
+20		20
+21		21
+22		22
+23		23
+24		24
+25		25
+26		26
+27		27
+28		28
+29		29
+30		30
+31		31
+32		32
+33		33
+34		34
+35		35
+36		36
+37		37
+38		38
+39		39
+40		40
+41		41
+42		42
+43		43
+44		44
+45		45
+46		46
+47		47
+48		48
+49		49
+50		50
+51		51
+52		52
+53		53
+54		54
+55		55
+56		56
+57		57
+58		58 (1996: 58 inches or less)
+59		59
+60		60
+61		61
+62		62
+63		63
+64		64
+65		65
+66		66
+67		67
+68		68
+69		69
+70		70
+71		71
+72		72
+73		73
+74		74
+75		75
+76		76
+77		77 (1996: 77+ inches)
+78		78
+79		79
+80		80
+81		81
+82		82
+83		83
+84		84 (1976 - 1981: 84+ inches)
+85		85
+86		86
+87		87
+88		88
+89		89
+90		90
+91		91
+92		92
+93		93
+94		94+
+95		Unknown-all causes
+96		Exceptionally short or tall
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ HSTATYR		Health status compared to 1 year ago
+0		NIU
+1		Better
+2		Worse
+3		About the same
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ WLDAYR2		Work loss days in past 12 months, truncated
+00		None
+01		1 day
+02		2 days
+03		3 days
+04		4 days
+05		5 days
+06		6 days
+07		7 days
+08		8 days
+09		9 days
+10		10 days
+11		11 days
+12		12 days
+13		13 days
+14		14 days
+15		15 days
+16		16 days
+17		17 days
+18		18 days
+19		19 days
+20		20 days
+21		21 days
+22		22 days
+23		23 days
+24		24 days
+25		25 days
+26		26 days
+27		27 days
+28		28 days
+29		29 days
+30		30 days
+31		31 days
+32		32 days
+33		33 days
+34		34 days
+35		35 days
+36		36 days
+37		37 days
+38		38 days
+39		39 days
+40		40 days
+41		41 days
+42		42 days
+43		43 days
+44		44 days
+45		45 days
+46		46 days
+47		47 days
+48		48 days
+49		49 days
+50		50 days
+51		51 days
+52		52 days
+53		53 days
+54		54 days
+55		55 days
+56		56 days
+57		57 days
+58		58 days
+59		59 days
+60		60 days
+61		61 days
+62		62 days
+63		63 days
+64		64 days
+65		65 days
+66		66 days
+67		67 days
+68		68 days
+69		69 days
+70		70 days
+71		71 days
+72		72 days
+73		73 days
+74		74 days
+75		75 days
+76		76 days
+77		77 days
+78		78 days
+79		79 days
+80		80 days
+81		81 days
+82		82 days
+83		83 days
+84		84 days
+85		85 days
+86		86 days
+87		87 days
+88		88 days
+89		89 days
+90		90 days
+91		91 days
+92		92 days
+93		93 days
+94		94 days
+95		95+ days
+96		NIU
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know (1977: Unknown)
+
+ WORKVOLHCSET		Currently work or volunteer in health care setting
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ WORKVOLHCPAT		Currently have direct contact with health care patients
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HEALTHMENT		Self-assessed mental health
+0		NIU
+1		Excellent
+2		Very good
+3		Good
+4		Fair
+5		Poor
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HEALTHPHYS		Self-assessed physical health
+0		NIU
+1		Excellent
+2		Very good
+3		Good
+4		Fair
+5		Poor
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ PHYSACTABLE		Ability to carry out everyday physical activities
+0		NIU
+1		Completely
+2		Mostly
+3		Moderately
+4		A little
+5		Not at all
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ QUALOFLIFE		Self-assessed quality of life
+0		NIU
+1		Excellent
+2		Very good
+3		Good
+4		Fair
+5		Poor
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ SOCHOWELL		Self-assessment of how well carry out social activities
+0		NIU
+1		Excellent
+2		Very good
+3		Good
+4		Fair
+5		Poor
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ SOCSATISFY		Satisfaction with social activities and relationships
+0		NIU
+1		Excellent
+2		Very good
+3		Good
+4		Fair
+5		Poor
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ ANEMIAYR		Had anemia, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ ARTHGLUPEV		Ever told had arthritis/rheumatoid arthritis/gout/lupus/fibromyalgia
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ ARTHRITEV		Ever told had arthritis
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ ASTHMAEV		Ever told had asthma
+0		NIU
+1		No or not mentioned
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ AUTISMEV		Ever told had autism
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CANCEREV		Ever told had cancer
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CHEARTDIEV		Ever told had coronary heart disease
+0		NIU
+1		No
+2		Yes
+7		Unknown--refused
+8		Unknown--not ascertained
+9		Unknown--don't know
+
+ CPOXEV		Ever had chickenpox
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CYSTICFIEV		Ever told had cystic fibrosis
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ DIABETICEV		Ever told had diabetes
+0		NIU
+1		No or not mentioned
+2		Yes or mentioned
+3		Borderline
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ DIARRHEAYR		Had frequent diarrhea, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ DOWNSYNEV		Ever told had Downs Syndrome
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ EARINFYR		Had 3+ ear infections, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ FHEADYR		Had frequent headaches/migraines in past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HEARTATTEV		Ever told had heart attack
+0		NIU
+1		No
+2		Yes
+7		Unknown--refused
+8		Unknown--not ascertained
+9		Unknown--don't know
+
+ HEARTCONEV		Ever told had heart condition/disease
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HEPATEV		Ever had hepatitis
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HYPERTENEV		Ever told had hypertension
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ KIDNEYWKYR		Told had weak/failing kidneys, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ LEGPAIN3MO		Low back pain spread down leg/below knees, past 3 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ MIGRAIN3MO		Had severe headaches/migraine, past 3 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ MUSCDYSTEV		Ever told have muscular dystrophy
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ PREGNANTNOW		Currently pregnant
+0		NIU
+1		No
+2		Yes
+7		Unknown--refused
+8		Unknown--not ascertained
+9		Unknown--don't know
+
+ RALLERGYR		Had respiratory allergy, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ RETEV		Ever told had mental retardation
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ SALLERGYR		Had skin allergy, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ SEIZUREYR		Had seizures, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ SICKLCELEV		Ever told had sickle cell
+0		NIU
+1		No or not mentioned
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ STROKEV		Ever told had a stroke
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ CNBRES		Ever had cancer: Breast
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HRSLEEP		Usual hours sleep per day
+00		NIU
+01		I hour (1990: 0 or 1 hour)
+02		2 hours
+03		3 hours
+04		4 hours
+05		5 hours
+06		6 hours
+07		7 hours
+08		8 hours
+09		9 hours
+10		10 hours
+11		11 hours
+12		12 hours
+13		13 hours
+14		14 hours
+15		15 hours
+16		16 hours
+17		17 hours
+18		18 hours
+19		19 hours
+20		20 hours
+21		21 hours
+22		22 hours
+23		23 hours
+24		24 hours
+25		Less than 1 hour
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ ALCSTAT1		Alcohol drinking status: Recode
+0		NIU
+1		Lifetime abstainer (lt 12 drinks in life)
+2		Former drinker (no drinks past year)
+3		Current drinker (1+ drinks past year)
+9		Drinking status unknown
+
+ ALCDAYSWK		Frequency drank alcohol in past year: Days per week
+00		Less than one day per week
+10		1 day per week
+20		2 days per week
+30		3 days per week
+40		4 days per week
+50		5 days per week
+60		6 days per week
+70		7 days per week
+80		Did not drink in past year
+96		NIU
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ SMOKFREQNOW		Smoke every day, some days, or not at all
+0		NIU
+1		Not at all
+2		Some days
+3		Every day
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ SMOKHOMRES		Residents smoke inside home
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ SMOKWKEXPYR		Experienced regular exposure to tobacco smoke from people at work, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ SPFNUM		SPF number of sunscreen most often used
+00		NIU
+01		1 SPF
+02		2 SPF
+03		3 SPF
+04		4 SPF
+05		5 SPF
+06		6 SPF
+07		7 SPF
+08		8 SPF
+09		9 SPF
+10		10 SPF
+11		11 SPF
+12		12 SPF
+13		13 SPF
+14		14 SPF
+15		15 SPF
+16		16 SPF
+17		17 SPF
+18		18 SPF
+19		19 SPF
+20		20 SPF
+21		21 SPF
+22		22 SPF
+23		23 SPF
+24		24 SPF
+25		25 SPF
+26		26 SPF
+27		27 SPF
+28		28 SPF
+29		29 SPF
+30		30 SPF
+31		31 SPF
+32		32 SPF
+33		33 SPF
+34		34 SPF
+35		35 SPF
+36		36 SPF
+37		37 SPF
+38		38 SPF
+39		39 SPF
+40		40 SPF
+41		41 SPF
+42		42 SPF
+43		43 SPF
+44		44 SPF
+45		45 SPF
+46		46 SPF
+47		47 SPF
+48		48 SPF
+49		49 SPF
+50		50 SPF
+96		More than 1 or other
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ SUNBRNYR		Had sunburn, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ TRAVLDC95		Traveled outside U.S. and MDCs since 1995
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ WEXVAPOR		Regularly exposed to vapors, gas, dust, or fumes at work, twice a week or more
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ WEXCHEMSKIN		Had regular skin contact with chemical substances on the job, past 12 months
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ LANY		Has any activity limitation
+10		Limited in any way
+20		Not limited or unknown
+21		Not limited in any way
+22		Unknown if limited
+
+ PAINFREQ		Have frequent pain
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ TIREFREQ3MO		Frequency of feeling exhausted in last 3 months
+0		NIU
+1		Never
+2		Some days
+3		Most days
+4		Every day
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ WORHPSAYANX		Told by medical professional have anxiety
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ DEPHPSAYDEP		Told by medical professional that have depression
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ AIDCHANCE		Chance of getting the AIDS virus
+0		NIU
+1		High/Already have HIV/AIDS
+2		Medium
+3		Low
+4		None
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BDBTCAN		Biological daughters had breast cancer
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BFBTCAN		Biological father had breast cancer
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BFHCAN		Biological father had cancer
+0		NIU
+1		No
+2		Yes
+3		Adopted or don't know biological father
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BMBTCAN		Biological mother had breast cancer
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BMHCAN		Biological mother had cancer
+0		NIU
+1		No
+2		Yes
+3		Adopted or don't know biological mother
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BSBTCAN		Biological sons had breast cancer
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ FBBTCAN		Full brothers had breast cancer
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ FSBTCAN		Full sisters had breast cancer
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ GENTBCAN		Had genetic test for breast cancer risk
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ LUMPEV		Had non-cancerous breast lump removed
+0		NIU
+1		No
+2		Yes
+3		Lump removed was cancerous
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ HYSTEV		Ever had a hysterectomy
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BCPILNOW		Currently taking birth control pills/implants/shots
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ BIRTHAG		Age at birth of first child
+00		NIU
+01		1 year
+02		2 years
+03		3 years
+04		4 years
+05		5 years
+06		6 years
+07		7 years
+08		8 years
+09		9 years
+10		10 years
+11		11 years
+12		12 years
+13		13 years
+14		14 years
+15		15 years
+16		16 years
+17		17 years
+18		18 years
+19		19 years
+20		20 years
+21		21 years
+22		22 years
+23		23 years
+24		24 years
+25		25 years
+26		26 years
+27		27 years
+28		28 years
+29		29 years
+30		30 years
+31		31 years
+32		32 years
+33		33 years
+34		34 years
+35		35 years
+36		36 years
+37		37 years
+38		38 years
+39		39 years
+40		40 years
+41		41 years
+42		42 years
+43		43 years
+44		44 years
+45		45 years
+46		46 years
+47		47 years
+48		48 years
+49		49 years
+50		50 years
+51		51 years
+52		52 years
+53		53 years
+54		54 years
+55		55 years
+56		56 years
+57		57 years
+58		58 years
+59		59 years
+60		60 years
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ CHEB		Total number of live births
+00		None
+01		1 live birth
+02		2 live births
+03		3 live births
+04		4 live births
+05		5 live births
+06		6 live births
+07		7 live births
+08		8 live births
+09		9 live births
+10		10 live births
+11		11 live births
+12		12 live births
+13		13 live births
+14		14 live births
+15		15 live births
+16		16 live births
+17		17 live births
+18		18 live births
+19		19 live births
+20		20 live births
+21		21 live births
+22		22 live births
+23		23 live births
+24		24 live births
+25		25+ live births
+96		NIU
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ MENARCH		Age at first menstrual period
+00		Haven't started
+01		1 year
+02		2 years
+03		3 years
+04		4 years
+05		5 years
+06		6 years
+07		7 years
+08		8 years
+09		9 years
+10		10 years
+11		11 years
+12		12 years
+13		13 years
+14		14 years
+15		15 years
+16		16 years
+17		17 years
+18		18 years
+19		19 years
+20		20 years
+21		21 years
+22		22 years
+23		23 years
+24		24 years
+25		25 years
+26		26 years
+27		27 years
+28		28 years
+29		29 years
+30		30 years
+31		31 years
+32		32 years
+33		33 years
+34		34 years
+35		35 years
+36		36 years
+37		37 years
+38		38 years
+39		39 years
+40		40 years
+41		41 years
+42		42 years
+43		43 years
+44		44 years
+45		45 years
+46		46 years
+47		47 years
+48		48 years
+49		49 years
+50		50 years
+51		51 years
+52		52 years
+53		53 years
+54		54 years
+55		55 years
+56		56 years
+57		57 years
+58		58 years
+59		59 years
+60		60+ years
+96		NIU
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ MENSHAVE		Have menstrual periods
+00		NIU
+10		No
+11		Never had periods
+12		Had hysterectomy
+20		Yes
+97		Unknown-refused
+98		Unknown-not ascertained
+99		Unknown-don't know
+
+ RALOXIFN		Currently taking Raloxifen
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ TAMOXIFN		Currently taking Tamoxifen
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ VITMO		Taken vitamins or minerals, past 30 days
+0		NIU
+1		No
+2		Yes
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ VITMOCALC		Took Calcium, past 30 days
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
+
+ VITMOVITD		Took vitamin D, past 30 days
+0		NIU
+1		Not mentioned
+2		Mentioned
+7		Unknown-refused
+8		Unknown-not ascertained
+9		Unknown-don't know
