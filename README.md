@@ -23,8 +23,8 @@ packages from sklearn were used.
 
 #### main.py:
   This python program includes the entire code to run experiments. To run 
-  experiments, run "python main.py <datatextfile>".  For our experiments,
-  ModCancerData.csv was used as the <datatextfile>.
+  experiments, run "python main.py [datatextfile]".  For our experiments,
+  ModCancerData.csv was used as the [datatextfile].
 
 #### projectData Folder:
   Cancer.dat - raw data file from IPUMS database
